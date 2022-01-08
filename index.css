@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: BBB5BD;
+}
+.top{
+	background-color: F9F8F8;
+	text-align: center;
+}
+
+p{
+	font-family: roboto, condensed ;
+	margin-top: 3px;
+	font-weight: bold;
+	font-size: 80px;
+}
+
+.down{
+	margin-top: 10%;
+	text-align: center;
+}
+
+button{
+	border: 5px solid white;
+	border-radius: 10px;
+	font-size: 100%;
+	font-weight: bold;
+	height: 10%;
+	width: 25%;
+	color: whitesmoke;
+	background-color: black;
+	transition: all 0.50s ease;
+}
+
+button:hover{
+	cursor: pointer;
+	background-color: ghostwhite;
+	color: black;
+	font-size: 150%;
+	border: 5px solid black;
+}
+
+#subbtn{
+	margin-top: 5px;
+}
+
+#rebtn,#savebtn{
+	height: 8%;
+	width: 20%;
+	margin-top: 5px;
+}
+
+#history{
+	font-size: 20px;
+}
+
+#savedata{
+	margin-top: 30px;
+	font-size: 20px;
+}
+
+
+@media only screen and (max-width: 1200px) {
+  #rebtn,#savebtn{
+	height: 9%;
+	width: 23%;
+	margin-top: 5px;
+	font-size: 20px;
+	}
+	#addbtn,#subbtn{
+	height: 12%;
+	width: 27%;
+	margin-top: 5px;
+	font-size: 20px;
+    }
+}
+
+
+
+

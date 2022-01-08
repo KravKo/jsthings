@@ -34,7 +34,7 @@ button{
 	width: 25%;
 	color: whitesmoke;
 	background-color: black;
-	transition: all 0.50s ease;
+	transition: all 0.20s ease;
 }
 
 button:hover{
